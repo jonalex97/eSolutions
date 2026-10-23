@@ -1,0 +1,103 @@
+<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site.Master.vb" Inherits="eSolutions.Web.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="es">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - e-Solutions Pagos Multicanal</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+    
+    <style>
+        body {
+            background-color: #f8fafc;
+            color: #1e293b;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .main-container {
+            flex: 1;
+        }
+        .navbar-brand {
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+        .channel-badge {
+            font-size: 0.85rem;
+            padding: 0.35rem 0.65rem;
+            border-radius: 9999px;
+            font-weight: 600;
+        }
+        .empresa-card {
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            background: #ffffff;
+        }
+        .empresa-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 20px -3px rgba(0, 0, 0, 0.08);
+            border-color: #cbd5e1;
+        }
+        .empresa-logo {
+            width: 72px;
+            height: 72px;
+            object-fit: contain;
+            margin: 0 auto;
+        }
+        .footer {
+            background: #ffffff;
+            border-top: 1px solid #e2e8f0;
+            padding: 1.25rem 0;
+            font-size: 0.875rem;
+            color: #64748b;
+        }
+    </style>
+    
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="mainForm" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePartialRendering="true" />
+
+        <!-- Header Institucional -->
+        <header class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+                    <i class="bi bi-wallet2 fs-4"></i>
+                    <span>e-Solutions <span class="fw-light">Pagos</span></span>
+                </a>
+                
+                <div class="d-flex align-items-center text-white ms-auto">
+                    <span class="d-none d-sm-inline opacity-75 me-2">Portal Transaccional Multicanal</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Contenedor Principal -->
+        <main class="main-container py-4">
+            <div class="container">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </main>
+
+        <!-- Pie de Página -->
+        <footer class="footer text-center">
+            <div class="container">
+                <div>&copy; <%: DateTime.Now.Year %> e-Solutions, S.A. &bull; Evaluación Técnica Desarrollador .NET</div>
+                <div class="small mt-1 text-muted">ASP.NET Web Forms (.NET Framework 4.8) | VB.NET | SQL Server LocalDB</div>
+            </div>
+        </footer>
+    </form>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
