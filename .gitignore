@@ -1,0 +1,27 @@
+## Visual Studio / .NET Framework GitIgnore
+
+# Carpetas de compilacion
+[Bb]in/
+[Oo]bj/
+[Aa]pp_[Dd]ata/logs/
+[Aa]pp_[Dd]ata/*.ldf
+[Aa]pp_[Dd]ata/*.mdf
+
+# Visual Studio temporal y configuracion de usuario
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Resultados de pruebas
+TestResults/
+[Tt]est[Rr]esults/
+*.trx
+
+# Archivos de depuracion
+*.pdb
+
+# Paquetes NuGet
+packages/
+*.nupkg
