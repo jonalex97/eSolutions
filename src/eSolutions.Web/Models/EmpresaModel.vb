@@ -1,4 +1,4 @@
-Namespace Models
+﻿Namespace Models
     ''' <summary>
     ''' Modelo de empresa retornado por el servicio rest.
     ''' </summary>

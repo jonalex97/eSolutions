@@ -1,4 +1,4 @@
-<%@ Page Title="Detalle de Empresa (Canal CJ)" Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="false" CodeBehind="DetalleEmpresa.aspx.vb" Inherits="eSolutions.Web.DetalleEmpresa" %>
+﻿<%@ Page Title="Detalle de Empresa (Canal CJ)" Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="false" CodeBehind="DetalleEmpresa.aspx.vb" Inherits="eSolutions.Web.DetalleEmpresa" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>

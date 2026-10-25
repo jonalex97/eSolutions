@@ -1,4 +1,4 @@
-Partial Public Class PagoEmpresa
+﻿Partial Public Class PagoEmpresa
     Protected WithEvents pnlResultadoPago As Global.System.Web.UI.WebControls.Panel
     Protected WithEvents litResultadoPago As Global.System.Web.UI.WebControls.Literal
     Protected WithEvents imgLogoEmpresa As Global.System.Web.UI.WebControls.Image

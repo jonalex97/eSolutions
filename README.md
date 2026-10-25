@@ -1,4 +1,4 @@
-# e-Solutions - Plataforma de Pagos Multicanal (.NET / VB.NET)
+﻿# e-Solutions - Plataforma de Pagos Multicanal (.NET / VB.NET)
 
 Solución desarrollada como parte de la evaluación técnica para la posición de **Desarrollador .NET** en **e-Solutions, S.A.**  
 Implementa una arquitectura web multicanal en **ASP.NET Web Forms** con **VB.NET**, base de datos en **SQL Server** y consumo asíncrono de servicios REST.

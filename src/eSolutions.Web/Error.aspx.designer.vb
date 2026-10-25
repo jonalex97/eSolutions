@@ -1,2 +1,2 @@
-Partial Public Class ErrorPage
+﻿Partial Public Class ErrorPage
 End Class

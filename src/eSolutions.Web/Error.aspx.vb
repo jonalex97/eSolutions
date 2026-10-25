@@ -1,4 +1,4 @@
-Imports System
+﻿Imports System
 
 Public Class ErrorPage
     Inherits System.Web.UI.Page

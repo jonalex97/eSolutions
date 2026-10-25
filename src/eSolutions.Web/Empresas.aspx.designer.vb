@@ -1,4 +1,4 @@
-Partial Public Class Empresas
+﻿Partial Public Class Empresas
     Protected WithEvents pnlMenuCanal As Global.System.Web.UI.WebControls.Panel
     Protected WithEvents lblBadgeCanal As Global.System.Web.UI.WebControls.Label
     Protected WithEvents lblCodigoCanal As Global.System.Web.UI.WebControls.Literal

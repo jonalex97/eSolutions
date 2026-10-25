@@ -1,4 +1,4 @@
-# Evaluacion Tecnica - Desarrollador .NET
+﻿# Evaluacion Tecnica - Desarrollador .NET
 ## Parte A: Preguntas Teoricas
 
 **Candidato:** Jonathan  

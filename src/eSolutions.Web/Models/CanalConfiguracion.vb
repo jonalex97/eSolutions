@@ -1,4 +1,4 @@
-Namespace Models
+﻿Namespace Models
     ''' <summary>
     ''' Representa la configuración técnica y visual de un canal de pagos obtenida de la base de datos.
     ''' </summary>
